@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New Student</title>
+        <link rel="stylesheet" href="/final_lab_assessment/new_student.html">
+    </head>
+    <link rel="stylesheet" href="/script.js">
+    
+    <body>
+        <h1 text="text-align-center">Add a new student</h1>
+        <form name="form" onsubmit="return validateForm()">
+            <fieldset id="f1">
+                
+                <legend style="text-align: center;">Student Details</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name"><br><br>
+                
+                <label for="age">age:</label>
+                <input type="age" id="age"><br><br>
+
+                <label for="email">email:</label>
+                <input type="email" id="email"><br><br>
+
+                <label for="gender">Choose your gender:</label><br>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label><br><br>
+
+                <label for="course">Choose a program</label><br><br>
+                <select name="course" id="course">
+                    <option value="DCSN">DCSN</option>
+                    <option value="DCS">DMA</option>
+                
+             
+
+                
+                <label for="gender">Choose atleast one hobby:</label><br>
+                
+                <input type="checkbox" id="hobby" name="Dancing"><br><br>
+                <label for="hobby">Dancing</label>
+
+                <input type="checkbox" id="hobby" name="Sleeping">
+
+                <label for="male">sleeping</label>
+                <input type="checkbox" id="hobby" name="Music">
+
+                <label for="male">Music</label>
+                <input type="checkbox" id="hobby" name="Nothing">
+
+                <label for="male">Nothing</label>
+
+
+                  
+                </select>
+            </fieldset><br><br>
+
+            <fieldset id="f2">
+                
+            </fieldset><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+               
+
+
+        
+        
+        <a href="home.html">Back to Home Page</a>
+        <div id="formMain">
+       
+            <!-- display the form on clicking the button -->
+            <button id="addStudentButton">Add a new student</button>
+
+            <div id="newStudentFormContainer">
+                <form action="" id="newStudentForm" onsubmit="validateForm()">
+                    <!-- your form goes here -->
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
